@@ -1,74 +1,83 @@
 /* Write some CSS below */
 body {
- font-family: Overpass;
-color: #404042;
-font-size: 18px;
+	font-family: Overpass;
+	color: #404042;
+	font-size: 18px;
 }
 p{
-color:  grey;
+	color:  black;
 }
 
 a {
-color: white;
-font-weight: bold;
-text-decoration: none;
-front-size:  20px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	front-size:  20px;
 }
 h1{
-font-family: Chivo, sans-serif;
-color: white;
+	font-family: Chivo, sans-serif;
+	color: hotpink;
 }
 
 h2{
-font-family: Chivo, sans-serif;
-color:  darkblue;
-padding: 300px;
+	font-family: Chivo, sans-serif;
+	color:  lightpink;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
 }
 
 h3{font-family: Chivo, sans-serif;
-color: black;
-}
-
-.btn-blue{
-width: 200px;
-Height: 36px;
-background-color: blue;
-padding: 15px 0px 0px 0px;
-border-radius: 5px;
+  color: black;
 }
 
 .banner{
-  height: 750px;
-  background-image:  url("images/background.jpg");
-  background-size: cover;
-  text-align: center;
+	height: 350px;
+	background-image:  url("images/wedding.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+	text-align: center;
+}
+
+.btn-blue{
+	width: 200px;
+	background-color: hotpink;
+	padding: 12px 40px;
+	border-radius: 5px;
 }
 
 .card-white {
-  background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  width: 200px;
-  text-align: center;
-  padding: 24px;
-  margin: 8px;
+  	background: white;
+  	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  	border-radius: 4px;
+  	width: 200px;
+  	text-align: center;
+  	padding: 24px ;
+	margin: 8px;
 }
 
 .image-card{
- width: 200px;
+	width: 200px;
+}
+
+.footer {
+	background: white;
+	text-align: center;
+	padding: 24px 0;
 }
 
 .cards{ 
-   padding: 0px 100px;
-   margin: 0auto;
-   display:  grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-gap:  15px;
+	padding: 100px 303px;
+	margin: 0auto;
+	display:  grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:  15px;
 }
 <!-- index.html -->
 <head>
-  <!-- [...] -->
+ <!-- [...] -->
   <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
   <!-- [...] -->
 </head>
+
 
